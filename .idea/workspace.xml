@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1r3SDXPyRMRXfiHINNiBxDejwl8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../o2o" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.34146342" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java\Algorithms\src" />
+      <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution26">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.stack.Solution1021" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.stack.Solution1047" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array.Solution26" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution_offer58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.array.Solution_offer58" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution26" />
+        <item itemvalue="Application.Solution_offer58" />
+        <item itemvalue="Application.Solution1047" />
+        <item itemvalue="Application.Solution1021" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+      <created>1618203161393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618203161393</updated>
+      <workItem from="1618203168521" duration="4593000" />
+      <workItem from="1618278921361" duration="1932000" />
+      <workItem from="1618447714506" duration="5574000" />
+      <workItem from="1618535039233" duration="8904000" />
+      <workItem from="1618622742300" duration="2039000" />
+      <workItem from="1618625885594" duration="2969000" />
+      <workItem from="1618736152161" duration="8572000" />
+      <workItem from="1618795405520" duration="6956000" />
+      <workItem from="1618879035421" duration="10843000" />
+      <workItem from="1618966956307" duration="10442000" />
+      <workItem from="1619053154579" duration="7350000" />
+      <workItem from="1619142838377" duration="2902000" />
+      <workItem from="1619312199407" duration="6544000" />
+      <workItem from="1619401169362" duration="7609000" />
+      <workItem from="1619485408484" duration="10677000" />
+      <workItem from="1619570216345" duration="6894000" />
+      <workItem from="1619657589072" duration="6767000" />
+      <workItem from="1620264542894" duration="7955000" />
+      <workItem from="1620368512122" duration="7315000" />
+      <workItem from="1620435244432" duration="6372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618452628014">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618452628014" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1620271246878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620271246878" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618747458897" />
+    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1619668048500">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1619668048500" />
+    <state width="1495" height="272" key="GridCell.Tab.0.bottom" timestamp="1620443702028">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="272" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702028" />
+    <state width="1495" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
+    <state width="1495" height="272" key="GridCell.Tab.0.center" timestamp="1620443702027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="272" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702027" />
+    <state width="1495" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
+    <state width="1495" height="272" key="GridCell.Tab.0.left" timestamp="1620443702027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="272" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702027" />
+    <state width="1495" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
+    <state width="1495" height="272" key="GridCell.Tab.0.right" timestamp="1620443702028">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1495" height="272" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702028" />
+    <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
+    <state x="302" y="0" key="SettingsEditor" timestamp="1618795955847">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618795955847" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1618883839006">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618883839006" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1619489276588">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1619489276588" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/stack/strStr28.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/stack/Solution682.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/stack/Solution1021.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
