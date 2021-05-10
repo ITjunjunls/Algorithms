@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/queue/LoopQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/queue/Queue.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -44,20 +51,7 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution26">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.Main" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution347">
     <configuration name="Solution1021" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.stack.Solution1021" />
       <module name="Algorithms" />
@@ -97,6 +91,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solution347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.maxheap.Solution347" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.maxheap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Solution_offer58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.array.Solution_offer58" />
       <module name="Algorithms" />
@@ -112,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution347" />
         <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution_offer58" />
         <item itemvalue="Application.Solution1047" />
         <item itemvalue="Application.Solution1021" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +157,7 @@
       <workItem from="1620264542894" duration="7955000" />
       <workItem from="1620368512122" duration="7315000" />
       <workItem from="1620435244432" duration="6372000" />
+      <workItem from="1620610072440" duration="6172000" />
     </task>
     <servers />
   </component>
@@ -161,34 +169,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618452628014" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1620271246878">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1620611934374">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620271246878" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620611934374" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618747458897" />
     <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1619668048500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1619668048500" />
-    <state width="1495" height="272" key="GridCell.Tab.0.bottom" timestamp="1620443702028">
+    <state width="1495" height="369" key="GridCell.Tab.0.bottom" timestamp="1620616214817">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="272" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702028" />
+    <state width="1495" height="369" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620616214817" />
     <state width="1495" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="272" key="GridCell.Tab.0.center" timestamp="1620443702027">
+    <state width="1495" height="369" key="GridCell.Tab.0.center" timestamp="1620616214816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="272" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702027" />
+    <state width="1495" height="369" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620616214816" />
     <state width="1495" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="272" key="GridCell.Tab.0.left" timestamp="1620443702027">
+    <state width="1495" height="369" key="GridCell.Tab.0.left" timestamp="1620616214816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="272" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702027" />
+    <state width="1495" height="369" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620616214816" />
     <state width="1495" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="272" key="GridCell.Tab.0.right" timestamp="1620443702028">
+    <state width="1495" height="369" key="GridCell.Tab.0.right" timestamp="1620616214816">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="272" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620443702028" />
+    <state width="1495" height="369" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620616214816" />
     <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
     <state x="302" y="0" key="SettingsEditor" timestamp="1618795955847">
       <screen x="0" y="0" width="1536" height="834" />
@@ -220,6 +228,16 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/stack/Solution1021.java</url>
           <line>23</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/maxheap/Solution347.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/maxheap/Solution347.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

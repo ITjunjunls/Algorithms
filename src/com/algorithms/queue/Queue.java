@@ -8,7 +8,7 @@ public interface Queue<E> {
 
     boolean isEmpty();
 
-    E dequeue(E e);
+    E dequeue();
 
     void enqueue(E e);
 
