@@ -54,4 +54,6 @@ public class SegmentTree<E> {
     private int rightChild(int index) {
         return 2 * index + 2;
     }
+
+
 }
