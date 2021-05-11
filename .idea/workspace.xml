@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithms/array/Solution35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithms/segmenttree/SegmentTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +37,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../o2o" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageprocess" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -156,6 +156,7 @@
       <workItem from="1620368512122" duration="7315000" />
       <workItem from="1620435244432" duration="6372000" />
       <workItem from="1620610072440" duration="8545000" />
+      <workItem from="1620694301824" duration="5581000" />
     </task>
     <servers />
   </component>
@@ -172,10 +173,10 @@
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620611934374" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618747458897" />
-    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1619668048500">
+    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1620697191928">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1619668048500" />
+    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620697191928" />
     <state width="1495" height="140" key="GridCell.Tab.0.bottom" timestamp="1620619084384">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -196,10 +197,10 @@
     </state>
     <state width="1495" height="140" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084384" />
     <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state x="302" y="0" key="SettingsEditor" timestamp="1618795955847">
+    <state x="302" y="0" key="SettingsEditor" timestamp="1620702511940">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618795955847" />
+    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620702511940" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1618883839006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -231,11 +232,6 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/maxheap/Solution347.java</url>
           <line>43</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/maxheap/Solution347.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/algorithms/array/Solution35.java</url>
