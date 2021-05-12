@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithms/segmenttree/SegmentTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageprocess" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
@@ -156,14 +154,32 @@
       <workItem from="1620368512122" duration="7315000" />
       <workItem from="1620435244432" duration="6372000" />
       <workItem from="1620610072440" duration="8545000" />
-      <workItem from="1620694301824" duration="5581000" />
+      <workItem from="1620694301824" duration="9235000" />
+      <workItem from="1620782300973" duration="358000" />
     </task>
+    <task id="LOCAL-00001" summary="just a push">
+      <created>1620703026850</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620703026850</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="just a push" />
+    <option name="LAST_COMMIT_MESSAGE" value="just a push" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="79" key="#Notifications" timestamp="1620782610596">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="79" key="#Notifications/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620782610596" />
     <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618452628014">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -173,10 +189,14 @@
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620611934374" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1618747458897" />
-    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1620697191928">
+    <state x="338" y="15" key="CommitChangelistDialog2" timestamp="1620702918960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620697191928" />
+    <state x="338" y="15" key="CommitChangelistDialog2/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620702918960" />
+    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1620782657378">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620782657378" />
     <state width="1495" height="140" key="GridCell.Tab.0.bottom" timestamp="1620619084384">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -197,10 +217,14 @@
     </state>
     <state width="1495" height="140" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084384" />
     <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state x="302" y="0" key="SettingsEditor" timestamp="1620702511940">
+    <state x="302" y="0" key="SettingsEditor" timestamp="1620782664957">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620702511940" />
+    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620782664957" />
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1620703451272">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="153" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620703451272" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1618883839006">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
