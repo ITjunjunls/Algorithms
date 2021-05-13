@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/segmenttree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/segmenttree/SegmentTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +156,7 @@
       <workItem from="1620610072440" duration="8545000" />
       <workItem from="1620694301824" duration="9235000" />
       <workItem from="1620782300973" duration="8976000" />
-      <workItem from="1620869649242" duration="4083000" />
+      <workItem from="1620869649242" duration="4773000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
