@@ -81,12 +81,11 @@ public class SegmentTree<E> {
     }
 
     /**
-     *
      * @param treeIndex 指代传入的节点的索引
-     * @param l 指的是当前节点所拥有的所有索引的最左边索引
-     * @param r 指的是当前节点所拥有的所有索引的最右边索引  l和r是在不断更新的
-     * @param queryL 所要查找的索引的最左边的索引
-     * @param queryR 所要查找的索引的最右边的索引
+     * @param l         指的是当前节点所拥有的所有索引的最左边索引
+     * @param r         指的是当前节点所拥有的所有索引的最右边索引  l和r是在不断更新的
+     * @param queryL    所要查找的索引的最左边的索引
+     * @param queryR    所要查找的索引的最右边的索引
      * @return
      */
     private E query(int treeIndex, int l, int r, int queryL, int queryR) {
@@ -108,5 +107,29 @@ public class SegmentTree<E> {
         E leftResult = query(leftTreeIndex, l, mid, queryL, mid);
         E rightResult = query(rightTreeIndex, mid + 1, r, mid + 1, queryR);
         return merger.merge(leftResult, rightResult);
+    }
+
+    public void set(int index, E e) {
+        if (index <= 0 || index >= data.length) {
+            throw new IllegalArgumentException("index is illegal");
+        }
+        data[index] = e;
+        set(0, 0, data.length - 1, index, e);
+    }
+
+    private void set(int treeIndex, int l, int r, int index, E e) {
+        if (l == r) {
+            tree[treeIndex] = e;
+            return;
+        }
+        int mid = l + (r - l) / 2;
+        int leftTreeIndex = leftChild(treeIndex);
+        int rightTreeIndex = rightChild(treeIndex);
+        if (index >= mid + 1) {
+            set(rightTreeIndex, mid + 1, r, index, e);
+        } else {
+            set(leftTreeIndex, l, mid, index, e);
+        }
+        tree[treeIndex] = merger.merge(tree[leftTreeIndex],tree[rightTreeIndex]);
     }
 }

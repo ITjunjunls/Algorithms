@@ -37,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../imageprocess" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
@@ -157,7 +157,8 @@
       <workItem from="1620435244432" duration="6372000" />
       <workItem from="1620610072440" duration="8545000" />
       <workItem from="1620694301824" duration="9235000" />
-      <workItem from="1620782300973" duration="7935000" />
+      <workItem from="1620782300973" duration="8976000" />
+      <workItem from="1620869649242" duration="4083000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -195,10 +196,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="338" y="15" key="CommitChangelistDialog2/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620702918960" />
-    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1620782657378">
+    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1620871301245">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620782657378" />
+    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620871301245" />
     <state width="1495" height="140" key="GridCell.Tab.0.bottom" timestamp="1620619084384">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
