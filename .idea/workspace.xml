@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithms/tree/Solution111.java" afterDir="false" />
-    </list>
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,13 +47,13 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution35">
-    <configuration name="Solution1047" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.stack.Solution1047" />
+  <component name="RunManager" selected="Application.Solution112">
+    <configuration name="Solution112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.Solution112" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.stack.*" />
+          <option name="PATTERN" value="com.algorithms.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution112" />
         <item itemvalue="Application.Solution35" />
         <item itemvalue="Application.Solution347" />
         <item itemvalue="Application.Solution26" />
         <item itemvalue="Application.Solution_offer58" />
-        <item itemvalue="Application.Solution1047" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +157,8 @@
       <workItem from="1620694301824" duration="9235000" />
       <workItem from="1620782300973" duration="8976000" />
       <workItem from="1620869649242" duration="7235000" />
-      <workItem from="1620959458565" duration="3062000" />
+      <workItem from="1620959458565" duration="3113000" />
+      <workItem from="1621215192686" duration="6323000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -201,25 +200,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620871301245" />
-    <state width="1495" height="140" key="GridCell.Tab.0.bottom" timestamp="1620619084384">
+    <state width="1495" height="182" key="GridCell.Tab.0.bottom" timestamp="1621222777914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="140" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084384" />
+    <state width="1495" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621222777914" />
     <state width="1495" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="140" key="GridCell.Tab.0.center" timestamp="1620619084384">
+    <state width="1495" height="182" key="GridCell.Tab.0.center" timestamp="1621222777914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="140" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084384" />
+    <state width="1495" height="182" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621222777914" />
     <state width="1495" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="140" key="GridCell.Tab.0.left" timestamp="1620619084383">
+    <state width="1495" height="182" key="GridCell.Tab.0.left" timestamp="1621222777914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="140" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084383" />
+    <state width="1495" height="182" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621222777914" />
     <state width="1495" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
-    <state width="1495" height="140" key="GridCell.Tab.0.right" timestamp="1620619084384">
+    <state width="1495" height="182" key="GridCell.Tab.0.right" timestamp="1621222777914">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="140" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620619084384" />
+    <state width="1495" height="182" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621222777914" />
     <state width="1495" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1618749173429" />
     <state x="302" y="0" key="SettingsEditor" timestamp="1620782664957">
       <screen x="0" y="0" width="1536" height="834" />
@@ -270,6 +269,11 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/array/Solution35.java</url>
           <line>20</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/tree/Solution112.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
