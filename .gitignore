@@ -1,0 +1,29 @@
+#maven
+/target/
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+.factorypath
+ 
+out/
+ 
+# Gradel
+.gradle/
+build/
+ 
+# IDEA
+/.idea/*
+*.ipr
+*.iml
+*.iws
+*.class
+/target/
+/out/
+
+
+ 
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
