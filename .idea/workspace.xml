@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/algorithms/trie/Trie.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1r3SDXPyRMRXfiHINNiBxDejwl8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -161,7 +166,8 @@
       <workItem from="1621215192686" duration="11037000" />
       <workItem from="1621300661699" duration="1425000" />
       <workItem from="1621344099834" duration="1812000" />
-      <workItem from="1621385909827" duration="1164000" />
+      <workItem from="1621385909827" duration="6962000" />
+      <workItem from="1621420221012" duration="2920000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -277,11 +283,6 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/tree/Solution112.java</url>
           <line>43</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/algorithms/tree/Solution226.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
