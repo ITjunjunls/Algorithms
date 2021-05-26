@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Program Files\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="F:/Program Files/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="F:\Program Files\apache-maven-3.6.3\conf\settings - 副本.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -42,7 +53,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -169,7 +180,11 @@
       <workItem from="1621507645711" duration="1409000" />
       <workItem from="1621562255166" duration="5232000" />
       <workItem from="1621644555632" duration="2521000" />
-      <workItem from="1621772666232" duration="5525000" />
+      <workItem from="1621772666232" duration="5610000" />
+      <workItem from="1621818650114" duration="3349000" />
+      <workItem from="1621927015378" duration="3121000" />
+      <workItem from="1621949311579" duration="1663000" />
+      <workItem from="1621994150227" duration="6083000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -207,34 +222,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="338" y="15" key="CommitChangelistDialog2/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620702918960" />
-    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1621315434322">
+    <state x="542" y="175" key="FileChooserDialogImpl" timestamp="1621928863967">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621315434322" />
-    <state width="1495" height="271" key="GridCell.Tab.0.bottom" timestamp="1621778892753">
+    <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621928863967" />
+    <state width="1495" height="106" key="GridCell.Tab.0.bottom" timestamp="1621822868069">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="67" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621231270559" />
-    <state width="1495" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621778892753" />
-    <state width="1495" height="271" key="GridCell.Tab.0.center" timestamp="1621778892753">
+    <state width="1495" height="106" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
+    <state width="1495" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
+    <state width="1495" height="106" key="GridCell.Tab.0.center" timestamp="1621822868069">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="67" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621231270558" />
-    <state width="1495" height="271" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621778892753" />
-    <state width="1495" height="271" key="GridCell.Tab.0.left" timestamp="1621778892753">
+    <state width="1495" height="106" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
+    <state width="1495" height="271" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
+    <state width="1495" height="106" key="GridCell.Tab.0.left" timestamp="1621822868069">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="67" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621231270558" />
-    <state width="1495" height="271" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621778892753" />
-    <state width="1495" height="271" key="GridCell.Tab.0.right" timestamp="1621778892753">
+    <state width="1495" height="106" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
+    <state width="1495" height="271" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621779027211" />
+    <state width="1495" height="106" key="GridCell.Tab.0.right" timestamp="1621822868069">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="67" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621231270559" />
-    <state width="1495" height="271" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621778892753" />
-    <state x="302" y="0" key="SettingsEditor" timestamp="1620782664957">
+    <state width="1495" height="106" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
+    <state width="1495" height="271" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
+    <state x="302" y="0" key="SettingsEditor" timestamp="1621928874325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620782664957" />
+    <state x="302" y="0" key="SettingsEditor/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621928874325" />
     <state x="361" y="153" key="Vcs.Push.Dialog.v2" timestamp="1620703451272">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -289,8 +304,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="13" />
+          <line>34</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

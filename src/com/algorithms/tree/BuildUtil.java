@@ -39,10 +39,14 @@ public class BuildUtil {
             i++;
             return;
         }
-        root.left = new TreeNode();
-        root.right = new TreeNode();
         root.val = nums[i];
         i++;
+        if(nums[i] == 0){
+            return;
+        }
+        root.left = new TreeNode();
+        root.right = new TreeNode();
+
         BuildUtil.bildTree(nums, root.left);
         BuildUtil.bildTree(nums, root.right);
     }
@@ -63,11 +67,12 @@ public class BuildUtil {
         q.add(root);
         while (!q.isEmpty()) {
             TreeNode cur = q.remove();
-            if(cur.val == 0){
-                v++;
-            }else {
-                System.out.println(cur.val);
-            }
+//            if(cur.val == 0){
+//                v++;
+//            }else {
+//                System.out.println(cur.val);
+//            }
+            System.out.println(cur.val);
             if (cur.left != null) {
                 q.add(cur.left);
             }
