@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +182,9 @@
       <workItem from="1621818650114" duration="3349000" />
       <workItem from="1621927015378" duration="3121000" />
       <workItem from="1621949311579" duration="1663000" />
-      <workItem from="1621994150227" duration="6083000" />
+      <workItem from="1621994150227" duration="6734000" />
+      <workItem from="1622100708576" duration="4976000" />
+      <workItem from="1622164265532" duration="6668000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
