@@ -21,7 +21,7 @@ public class UnionFind1 implements UnionFind {
     }
 
     @Override
-    public void UnionElements(int p, int q) {
+    public void unionElements(int p, int q) {
         int pID = find(p);
         int qID = find(q);
 

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind1.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,13 +62,26 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BuildUtil">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="BuildUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.BuildUtil" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.algorithms.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.unionfind.Main" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.unionfind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.maxheap.Solution347" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.maxheap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Solution35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.array.Solution35" />
       <module name="Algorithms" />
@@ -127,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.BuildUtil" />
         <item itemvalue="Application.Solution226" />
         <item itemvalue="Application.Solution112" />
         <item itemvalue="Application.Solution35" />
-        <item itemvalue="Application.Solution347" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +188,11 @@
       <workItem from="1621994150227" duration="6734000" />
       <workItem from="1622100708576" duration="4976000" />
       <workItem from="1622164265532" duration="7362000" />
-      <workItem from="1622463780883" duration="3151000" />
+      <workItem from="1622463780883" duration="4646000" />
+      <workItem from="1622517180706" duration="2754000" />
+      <workItem from="1622550251256" duration="588000" />
+      <workItem from="1622555411199" duration="1854000" />
+      <workItem from="1622596765998" duration="3885000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -214,11 +221,11 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1618452628014" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1622466170650">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1622556997681">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1620611934374" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1622466170650" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622518283941" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1622556997681" />
     <state x="338" y="15" key="CommitChangelistDialog2" timestamp="1620702918960">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -227,26 +234,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621928863967" />
-    <state width="1495" height="106" key="GridCell.Tab.0.bottom" timestamp="1621822868069">
+    <state width="1495" height="194" key="GridCell.Tab.0.bottom" timestamp="1622601038436">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="106" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
-    <state width="1495" height="271" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
-    <state width="1495" height="106" key="GridCell.Tab.0.center" timestamp="1621822868069">
+    <state width="1495" height="194" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622601038436" />
+    <state width="1495" height="84" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1622557288150" />
+    <state width="1495" height="194" key="GridCell.Tab.0.center" timestamp="1622601038436">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="106" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
-    <state width="1495" height="271" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
-    <state width="1495" height="106" key="GridCell.Tab.0.left" timestamp="1621822868069">
+    <state width="1495" height="194" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622601038436" />
+    <state width="1495" height="84" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1622557288149" />
+    <state width="1495" height="194" key="GridCell.Tab.0.left" timestamp="1622601038435">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="106" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
-    <state width="1495" height="271" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1621779027211" />
-    <state width="1495" height="106" key="GridCell.Tab.0.right" timestamp="1621822868069">
+    <state width="1495" height="194" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622601038435" />
+    <state width="1495" height="84" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1622557288149" />
+    <state width="1495" height="194" key="GridCell.Tab.0.right" timestamp="1622601038436">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="106" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621822868069" />
-    <state width="1495" height="271" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1621779027212" />
+    <state width="1495" height="194" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622601038436" />
+    <state width="1495" height="84" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1622557288150" />
     <state x="302" y="0" key="SettingsEditor" timestamp="1621928874325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
