@@ -26,8 +26,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int size = 100000;
-        int m = 100000;
+        int size = 10000;
+        int m = 10000;
 
         UnionFind1 unionFind1 = new UnionFind1(size);
         System.out.println("uf1:" + testUF(unionFind1, m) + "s");
@@ -40,5 +40,11 @@ public class Main {
 
         UnionFind4 unionFind4 = new UnionFind4(size);
         System.out.println("uf4:" + testUF(unionFind4, m) + "s");
+
+        UnionFind5 unionFind5 = new UnionFind5(size);
+        System.out.println("uf5:" + testUF(unionFind5, m) + "s");
+
+        UnionFind6 unionFind6 = new UnionFind6(size);
+        System.out.println("uf6:" + testUF(unionFind5, m) + "s");
     }
 }

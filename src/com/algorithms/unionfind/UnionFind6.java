@@ -1,17 +1,16 @@
 package com.algorithms.unionfind;
 
 /**
- * @author itjunjun  2021/6/2 10:20
- * 这个版本主要是从深度上面进行优化，深度小的合并到深度大的集合
- * 缺点就是树的高度不可避免的会变得很大，需要进行路径压缩来降低树的高度
+ * @author itjunjun  2021/6/3 9:04
+ * 将集合中的节点直接指向根节点
  */
-public class UnionFind4 implements UnionFind {
+public class UnionFind6 implements UnionFind {
 
     private int[] parent;
 
     private int[] rank;
 
-    public UnionFind4(int size) {
+    public UnionFind6(int size) {
         parent = new int[size];
         rank = new int[size];
         for (int i = 0; i < size; i++) {
@@ -56,9 +55,9 @@ public class UnionFind4 implements UnionFind {
         if (p < 0 || p >= parent.length) {
             throw new IllegalArgumentException("p is out of bound");
         }
-        while (p != parent[p]) {
-            p = parent[p];
+        if (p != parent[p]) {
+            parent[p] = find(parent[p]);
         }
-        return p;
+        return parent[p];
     }
 }
