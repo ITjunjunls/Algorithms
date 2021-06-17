@@ -165,12 +165,12 @@ public class AVLTree<K extends Comparable<K>, V> {
             return leftRotate(node);
         }
         //LR
-        if(balanceFactor > 1 && getBanlanceFactor(node.left) < 0){
+        if (balanceFactor > 1 && getBanlanceFactor(node.left) < 0) {
             node.left = leftRotate(node.left);
             return rightRotate(node);
         }
         //RL
-        if(balanceFactor < -1 && getBanlanceFactor(node.right) > 0){
+        if (balanceFactor < -1 && getBanlanceFactor(node.right) > 0) {
             node.right = rightRotate(node.right);
             return leftRotate(node);
         }
@@ -244,47 +244,86 @@ public class AVLTree<K extends Comparable<K>, V> {
         return null;
     }
 
+    /**
+     * 这个方法主要是将删除了对应节点后的根节点进行保存，然后检查这个节点的平衡因子，再进行旋转保持平衡
+     *
+     * @param node
+     * @param key
+     * @return
+     */
     private Node remove(Node node, K key) {
 
         if (node == null) {
             return null;
         }
+        Node retNode;
         if (key.compareTo(node.key) < 0) {
             node.left = remove(node.left, key);
-            return node;
+            retNode = node;
         } else if (key.compareTo(node.key) > 0) {
             node.right = remove(node.right, key);
-            return node;
+            retNode = node;
         } else {   // key.compareTo(node.key) == 0
-
             // 待删除节点左子树为空的情况
             if (node.left == null) {
                 Node rightNode = node.right;
                 node.right = null;
                 size--;
-                return rightNode;
+                retNode = rightNode;
             }
-
             // 待删除节点右子树为空的情况
-            if (node.right == null) {
+            else if (node.right == null) {
                 Node leftNode = node.left;
                 node.left = null;
                 size--;
-                return leftNode;
+                retNode = leftNode;
+            } else {
+                // 待删除节点左右子树均不为空的情况
+
+                // 找到比待删除节点大的最小节点, 即待删除节点右子树的最小节点
+                // 用这个节点顶替待删除节点的位置
+                Node successor = minimum(node.right);
+                successor.right = remove(node.right, successor.key);
+                successor.left = node.left;
+
+                node.left = node.right = null;
+
+                retNode = successor;
             }
-
-            // 待删除节点左右子树均不为空的情况
-
-            // 找到比待删除节点大的最小节点, 即待删除节点右子树的最小节点
-            // 用这个节点顶替待删除节点的位置
-            Node successor = minimum(node.right);
-            successor.right = removeMin(node.right);
-            successor.left = node.left;
-
-            node.left = node.right = null;
-
-            return successor;
         }
+        //判断retNode是否为空
+        if(retNode == null){
+            return null;
+        }
+        //维护retNode的平衡
+        //更新height
+        retNode.height = 1 + Math.max(getHeight(retNode.left), getHeight(retNode.right));
+
+        //计算平衡因子
+        int balanceFactor = getBanlanceFactor(retNode);
+
+        if (Math.abs(balanceFactor) > 1) {
+            System.out.println("unblanced:" + balanceFactor);
+        }
+        //维护平衡
+        // LL 和 RR 型
+        if (balanceFactor > 1 && getBanlanceFactor(retNode.left) > 0) {
+            return rightRotate(retNode);
+        }
+        if (balanceFactor < -1 && getBanlanceFactor(retNode.right) <= 0) {
+            return leftRotate(retNode);
+        }
+        //LR
+        if (balanceFactor > 1 && getBanlanceFactor(retNode.left) < 0) {
+            retNode.left = leftRotate(retNode.left);
+            return rightRotate(retNode);
+        }
+        //RL
+        if (balanceFactor < -1 && getBanlanceFactor(retNode.right) > 0) {
+            retNode.right = rightRotate(retNode.right);
+            return leftRotate(retNode);
+        }
+        return retNode;
     }
 
     public static void main(String[] args) {

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/unionfind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/unionfind/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/unionfind/UnionFind4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/avltree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/avltree/AVLTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +200,11 @@
       <workItem from="1622769586122" duration="776000" />
       <workItem from="1623074369655" duration="589000" />
       <workItem from="1623116807353" duration="8779000" />
-      <workItem from="1623207914859" duration="7163000" />
+      <workItem from="1623207914859" duration="7847000" />
+      <workItem from="1623327599839" duration="995000" />
+      <workItem from="1623417774786" duration="715000" />
+      <workItem from="1623838985990" duration="1207000" />
+      <workItem from="1623915579307" duration="2571000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
