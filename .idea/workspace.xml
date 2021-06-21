@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/avltree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/avltree/AVLTree.java" afterDir="false" />
-    </list>
+    <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/algorithms/avltree" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/algorithms/redblacktree" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
@@ -60,6 +58,7 @@
       <recent name="com.algorithms.avltree" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Java\Algorithms\src\com\algorithms\redblacktree" />
       <recent name="G:\Java\Algorithms\src\com\algorithms\avltree" />
       <recent name="G:\Java\Algorithms\src" />
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
@@ -204,7 +203,9 @@
       <workItem from="1623327599839" duration="995000" />
       <workItem from="1623417774786" duration="715000" />
       <workItem from="1623838985990" duration="1207000" />
-      <workItem from="1623915579307" duration="2571000" />
+      <workItem from="1623915579307" duration="2641000" />
+      <workItem from="1623940011380" duration="1073000" />
+      <workItem from="1623999602109" duration="14556000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
