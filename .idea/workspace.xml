@@ -64,13 +64,13 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Offer09">
-    <configuration name="BuildUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.BuildUtil" />
+  <component name="RunManager" selected="Application.Offer58">
+    <configuration name="Offer05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.string.Offer05" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.tree.*" />
+          <option name="PATTERN" value="com.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.unionfind.Main" />
+    <configuration name="Offer06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Offer06" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.unionfind.*" />
+          <option name="PATTERN" value="com.algorithms.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.stack.Offer09" />
+    <configuration name="Offer24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Offer24" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.stack.*" />
+          <option name="PATTERN" value="com.algorithms.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution226" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.tree.Solution226" />
+    <configuration name="Offer35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Offer35" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.tree.*" />
+          <option name="PATTERN" value="com.algorithms.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution387" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.hash.Solution387" />
+    <configuration name="Offer58" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.string.Offer58" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.hash.*" />
+          <option name="PATTERN" value="com.algorithms.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Offer09" />
-        <item itemvalue="Application.Solution387" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BuildUtil" />
-        <item itemvalue="Application.Solution226" />
+        <item itemvalue="Application.Offer58" />
+        <item itemvalue="Application.Offer05" />
+        <item itemvalue="Application.Offer35" />
+        <item itemvalue="Application.Offer06" />
+        <item itemvalue="Application.Offer24" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +211,7 @@
       <workItem from="1626061494103" duration="1219000" />
       <workItem from="1628125364244" duration="494000" />
       <workItem from="1629078640100" duration="3301000" />
+      <workItem from="1629166245557" duration="10811000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -248,26 +249,26 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="542" y="175" key="FileChooserDialogImpl/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1621928863967" />
-    <state width="1495" height="190" key="GridCell.Tab.0.bottom" timestamp="1629082182050">
+    <state width="1495" height="85" key="GridCell.Tab.0.bottom" timestamp="1629252313072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1495" height="36" key="GridCell.Tab.0.bottom/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622710364055" />
-    <state width="1495" height="190" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629082182050" />
-    <state width="1495" height="190" key="GridCell.Tab.0.center" timestamp="1629082182049">
+    <state width="1495" height="85" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1629252313072" />
+    <state width="1495" height="85" key="GridCell.Tab.0.center" timestamp="1629252313071">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1495" height="36" key="GridCell.Tab.0.center/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622710364055" />
-    <state width="1495" height="190" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629082182049" />
-    <state width="1495" height="190" key="GridCell.Tab.0.left" timestamp="1629082182049">
+    <state width="1495" height="85" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1629252313071" />
+    <state width="1495" height="85" key="GridCell.Tab.0.left" timestamp="1629252313071">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1495" height="36" key="GridCell.Tab.0.left/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622710364054" />
-    <state width="1495" height="190" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629082182049" />
-    <state width="1495" height="190" key="GridCell.Tab.0.right" timestamp="1629082182050">
+    <state width="1495" height="85" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1629252313071" />
+    <state width="1495" height="85" key="GridCell.Tab.0.right" timestamp="1629252313072">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1495" height="36" key="GridCell.Tab.0.right/0.0.1536.834/-1440.0.1440.870@0.0.1536.834" timestamp="1622710364055" />
-    <state width="1495" height="190" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629082182050" />
+    <state width="1495" height="85" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1629252313072" />
     <state x="302" y="0" key="SettingsEditor" timestamp="1621928874325">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -323,6 +324,11 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/tree/BuildUtil.java</url>
           <line>34</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/link/Offer06.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
