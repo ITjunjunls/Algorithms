@@ -82,7 +82,7 @@ public class Solution92 {
     public static void main(String[] args) {
         Solution92 solution92 = new Solution92();
         ListNode head = solution92.initList();
-        head = solution92.reverseBetween(head, 2, 4);
+        head = solution92.reverseBetween(head, 1, 3);
         solution92.diaplay(head);
     }
 

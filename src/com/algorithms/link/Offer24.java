@@ -7,15 +7,27 @@ package com.algorithms.link;
 public class Offer24 {
 
     public ListNode reverseList(ListNode head) {
-        ListNode resHead = new ListNode(0);
+        if(head == null){
+            return null;
+        }
+        return reverse(head);
+    }
+
+    public ListNode reverse(ListNode head){
+        if(head.next == null){
+            return head;
+        }
+        ListNode last = reverseList(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
+    }
+
+    void diaplay(ListNode head) {
         while (head != null) {
-            ListNode node = new ListNode(0);
-            node.val = head.val;
-            node.next = resHead.next;
-            resHead.next = node;
+            System.out.println(head.val);
             head = head.next;
         }
-        return resHead.next;
     }
 
     public static void main(String[] args) {
@@ -28,6 +40,7 @@ public class Offer24 {
         }
         end.next = null;
         Offer24 offer24 = new Offer24();
+        offer24.diaplay(head);
         head = offer24.reverseList(head);
         while(head != null){
             System.out.println(head.val + "   ");
