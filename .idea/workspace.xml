@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Offer24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Offer24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Solution92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Solution92.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,9 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Algorithms" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +59,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.34146342" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -70,20 +72,7 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution25">
-    <configuration name="Offer10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.dynamic.Offer10" />
-      <module name="Algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithms.dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Solution234_2">
     <configuration name="Offer24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Offer24" />
       <module name="Algorithms" />
@@ -97,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Offer50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.array.Offer50" />
+    <configuration name="Solution234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution234" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithms.array.*" />
+          <option name="PATTERN" value="com.algorithms.link.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution234_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution234_2" />
+      <module name="Algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithms.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution234_2" />
+        <item itemvalue="Application.Solution234" />
         <item itemvalue="Application.Solution25" />
         <item itemvalue="Application.Solution92" />
         <item itemvalue="Application.Offer24" />
-        <item itemvalue="Application.Offer10" />
-        <item itemvalue="Application.Offer50" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,9 @@
       <workItem from="1629425351238" duration="10081000" />
       <workItem from="1629511076155" duration="1911000" />
       <workItem from="1631610621648" duration="10382000" />
-      <workItem from="1631758129711" duration="5300000" />
+      <workItem from="1631758129711" duration="5766000" />
+      <workItem from="1631845839467" duration="4463000" />
+      <workItem from="1631960227212" duration="1371000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -242,22 +246,26 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1495" height="197" key="GridCell.Tab.0.bottom" timestamp="1631762760421">
+    <state width="1495" height="220" key="GridCell.Tab.0.bottom" timestamp="1631961112766">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="197" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631762760421" />
-    <state width="1495" height="197" key="GridCell.Tab.0.center" timestamp="1631762760420">
+    <state width="1495" height="220" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1631961112766" />
+    <state width="1495" height="220" key="GridCell.Tab.0.center" timestamp="1631961112766">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="197" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1631762760420" />
-    <state width="1495" height="197" key="GridCell.Tab.0.left" timestamp="1631762760420">
+    <state width="1495" height="220" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1631961112766" />
+    <state width="1495" height="220" key="GridCell.Tab.0.left" timestamp="1631961112766">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="197" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1631762760420" />
-    <state width="1495" height="197" key="GridCell.Tab.0.right" timestamp="1631762760421">
+    <state width="1495" height="220" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1631961112766" />
+    <state width="1495" height="220" key="GridCell.Tab.0.right" timestamp="1631961112766">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="197" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1631762760421" />
+    <state width="1495" height="220" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1631961112766" />
+    <state x="302" y="63" key="SettingsEditor" timestamp="1631960307281">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="302" y="63" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1631960307281" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,6 +314,11 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/link/Offer06.java</url>
           <line>7</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/link/Solution92.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

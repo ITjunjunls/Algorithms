@@ -7,23 +7,6 @@ import sun.java2d.windows.GDIWindowSurfaceData;
  */
 public class Solution92 {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode dummyNode = new ListNode(-1);
         dummyNode.next = head;
@@ -66,8 +49,8 @@ public class Solution92 {
         }
     }
 
-    ListNode initList() {
-        int[] a = {1, 2, 3, 4, 5};
+    static public ListNode initList() {
+        int[] a = {1, 2, 3, 2, 1};
         ListNode head = new ListNode(a[0]);
         ListNode end = head;
         for (int i = 1; i < a.length; i++) {
@@ -81,7 +64,7 @@ public class Solution92 {
 
     public static void main(String[] args) {
         Solution92 solution92 = new Solution92();
-        ListNode head = solution92.initList();
+        ListNode head = initList();
         head = solution92.reverseBetween(head, 1, 3);
         solution92.diaplay(head);
     }
