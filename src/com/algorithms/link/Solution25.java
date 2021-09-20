@@ -5,36 +5,19 @@ package com.algorithms.link;
  */
 public class Solution25 {
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {
-        }
-
-        ListNode(int val) {
-            this.val = val;
-        }
-
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null) {
             return null;
         }
         ListNode a = head, b = head;
         for (int i = 0; i < k; i++) {
-            if(b == null){
+            if (b == null) {
                 return head;
             }
             b = b.next;
         }
-        ListNode newHead = reverse(a,b);
-        a.next = reverseKGroup(b,k);
+        ListNode newHead = reverse(a, b);
+        a.next = reverseKGroup(b, k);
         return newHead;
     }
 
@@ -49,29 +32,10 @@ public class Solution25 {
         return pre;
     }
 
-    ListNode initList() {
-        int[] a = {1, 2, 3, 4, 5};
-        ListNode head = new ListNode(a[0]);
-        ListNode end = head;
-        for (int i = 1; i < a.length; i++) {
-            ListNode node = new ListNode(a[i]);
-            end.next = node;
-            end = node;
-        }
-        end.next = null;
-        return head;
-    }
-
-    void diaplay(ListNode head) {
-        while (head != null) {
-            System.out.print(head.val + "   ");
-            head = head.next;
-        }
-    }
-
     public static void main(String[] args) {
+        int[] a = {1, 2, 3, 4, 5};
         Solution25 solution25 = new Solution25();
-        ListNode head = solution25.initList();
+        ListNode head = TestCase.initList(a);
         ListNode end = head;
         while (end != null) {
             if (end.next != null) {
@@ -80,7 +44,7 @@ public class Solution25 {
                 break;
             }
         }
-        head = solution25.reverseKGroup(head,2);
-        solution25.diaplay(head);
+        head = solution25.reverseKGroup(head, 2);
+        TestCase.diaplay(head);
     }
 }

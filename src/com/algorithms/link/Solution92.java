@@ -11,9 +11,9 @@ public class Solution92 {
         ListNode dummyNode = new ListNode(-1);
         dummyNode.next = head;
         ListNode startNode = dummyNode;
-        ListNode endNode = head;
-        ListNode leftNode = new ListNode();
-        ListNode rightNode = new ListNode();
+        ListNode endNode;
+        ListNode leftNode;
+        ListNode rightNode;
         for (int i = 0; i < left - 1; i++) {
             startNode = startNode.next;
         }
@@ -42,31 +42,12 @@ public class Solution92 {
         return last;
     }
 
-    void diaplay(ListNode head) {
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
-    }
-
-    static public ListNode initList() {
-        int[] a = {1, 2, 3, 2, 1};
-        ListNode head = new ListNode(a[0]);
-        ListNode end = head;
-        for (int i = 1; i < a.length; i++) {
-            ListNode node = new ListNode(a[i]);
-            end.next = node;
-            end = node;
-        }
-        end.next = null;
-        return head;
-    }
-
     public static void main(String[] args) {
         Solution92 solution92 = new Solution92();
-        ListNode head = initList();
+        int[] a = {1, 2, 3, 4, 5};
+        ListNode head = TestCase.initList(a);
         head = solution92.reverseBetween(head, 1, 3);
-        solution92.diaplay(head);
+        TestCase.diaplay(head);
     }
 
 

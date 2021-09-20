@@ -12,8 +12,8 @@ public class Solution234_2 {
         return check(head);
     }
 
-    boolean check(ListNode right){
-        if(right == null){
+    boolean check(ListNode right) {
+        if (right == null) {
             return true;
         }
         boolean res = check(right.next);
@@ -23,9 +23,9 @@ public class Solution234_2 {
     }
 
     public static void main(String[] args) {
+        int[] a = {1, 2, 3, 4, 5};
         Solution234_2 solution234_2 = new Solution234_2();
-        ListNode head = Solution92.initList();
+        ListNode head = TestCase.initList(a);
         System.out.println(solution234_2.isPalindrome(head));
     }
-
 }
