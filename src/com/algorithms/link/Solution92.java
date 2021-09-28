@@ -47,7 +47,7 @@ public class Solution92 {
         int[] a = {1, 2, 3, 4, 5};
         ListNode head = TestCase.initList(a);
         head = solution92.reverseBetween(head, 1, 3);
-        TestCase.diaplay(head);
+        TestCase.display(head);
     }
 
 

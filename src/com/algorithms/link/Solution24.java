@@ -28,6 +28,6 @@ public class Solution24 {
         int a[] = {1, 2, 3, 4, 5};
         ListNode head = TestCase.initList(a);
         head = solution24.swapPairs(head);
-        TestCase.diaplay(head);
+        TestCase.display(head);
     }
 }

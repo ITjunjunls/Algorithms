@@ -5,7 +5,7 @@ package com.algorithms.link;
  */
 public class TestCase {
 
-    static public void diaplay(ListNode head) {
+    static public void display(ListNode head) {
         while (head != null) {
             System.out.print(head.val + "   ");
             head = head.next;

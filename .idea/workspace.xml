@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="999b718a-24e3-4c50-a78c-0e4656073b72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Solution234_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Solution234_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Solution24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Solution24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Solution25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Solution25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/Solution92.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/Solution92.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithms/link/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/link/TestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +75,9 @@
       <recent name="G:\Java\Algorithms\src\com\algorithms\week1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Solution24">
-    <configuration name="Solution234" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution234" />
+  <component name="RunManager" selected="Application.Solution86">
+    <configuration name="Solution61_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution61_1" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution234_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution234_2" />
+    <configuration name="Solution82" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution82" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution24" />
+    <configuration name="Solution82_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution82_1" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution25" />
+    <configuration name="Solution83" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution83" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution92" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution92" />
+    <configuration name="Solution86" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithms.link.Solution86" />
       <module name="Algorithms" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution24" />
-        <item itemvalue="Application.Solution234_2" />
-        <item itemvalue="Application.Solution234" />
-        <item itemvalue="Application.Solution25" />
-        <item itemvalue="Application.Solution92" />
+        <item itemvalue="Application.Solution86" />
+        <item itemvalue="Application.Solution82_1" />
+        <item itemvalue="Application.Solution83" />
+        <item itemvalue="Application.Solution82" />
+        <item itemvalue="Application.Solution61_1" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +231,10 @@
       <workItem from="1631960227212" duration="4177000" />
       <workItem from="1632012390130" duration="3776000" />
       <workItem from="1632098301539" duration="3802000" />
+      <workItem from="1632294383321" duration="6561000" />
+      <workItem from="1632356408027" duration="5859000" />
+      <workItem from="1632538752548" duration="3880000" />
+      <workItem from="1632795827899" duration="3711000" />
     </task>
     <task id="LOCAL-00001" summary="just a push">
       <created>1620703026850</created>
@@ -251,22 +255,22 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1495" height="178" key="GridCell.Tab.0.bottom" timestamp="1632017080285">
+    <state width="1495" height="154" key="GridCell.Tab.0.bottom" timestamp="1632817187730">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="178" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1632017080285" />
-    <state width="1495" height="178" key="GridCell.Tab.0.center" timestamp="1632017080285">
+    <state width="1495" height="154" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1632817187730" />
+    <state width="1495" height="154" key="GridCell.Tab.0.center" timestamp="1632817187729">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="178" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1632017080285" />
-    <state width="1495" height="178" key="GridCell.Tab.0.left" timestamp="1632017080285">
+    <state width="1495" height="154" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1632817187729" />
+    <state width="1495" height="154" key="GridCell.Tab.0.left" timestamp="1632817187729">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="178" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1632017080285" />
-    <state width="1495" height="178" key="GridCell.Tab.0.right" timestamp="1632017080285">
+    <state width="1495" height="154" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1632817187729" />
+    <state width="1495" height="154" key="GridCell.Tab.0.right" timestamp="1632817187729">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1495" height="178" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1632017080285" />
+    <state width="1495" height="154" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1632817187729" />
     <state x="302" y="63" key="SettingsEditor" timestamp="1631960307281">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -323,6 +327,11 @@
           <url>file://$PROJECT_DIR$/src/com/algorithms/link/Offer06.java</url>
           <line>7</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithms/link/Solution86.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

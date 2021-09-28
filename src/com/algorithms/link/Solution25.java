@@ -45,6 +45,6 @@ public class Solution25 {
             }
         }
         head = solution25.reverseKGroup(head, 2);
-        TestCase.diaplay(head);
+        TestCase.display(head);
     }
 }
